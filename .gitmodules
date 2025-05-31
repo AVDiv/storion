@@ -1,0 +1,21 @@
+[submodule "other/kafka-self-hosted-setup"]
+	path = other/kafka-self-hosted-setup
+	url = git@github.com:AVDiv/kafka_conduktor_docker_setup.git
+[submodule "other/analysis-and-testing"]
+	path = other/analysis-and-testing
+	url = git@github.com:AVDiv/storion_aggregation_analysis.git
+[submodule "other/source-list-collector"]
+	path = other/source-list-collector
+	url = git@github.com:AVDiv/storion-source-collector
+[submodule "storion-mobile-app"]
+	path = storion-mobile-app
+	url = git@github.com:AVDiv/storion-mobile-app
+[submodule "storion-aggregation-workflow"]
+	path = storion-aggregation-workflow
+	url = git@github.com:AVDiv/storion-aggregation-workflow
+[submodule "storion-collector-engine"]
+	path = storion-collector-engine
+	url = git@github.com:AVDiv/news_extractor_engine.git
+[submodule "storion-backend"]
+	path = storion-backend
+	url = git@github.com:AVDiv/storion-backend

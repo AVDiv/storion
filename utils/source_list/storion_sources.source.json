@@ -1,0 +1,6452 @@
+[{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cb7"
+  },
+  "title": "Brave Blog",
+  "domain": "brave.com",
+  "rss": "https://brave.com/blog/index.xml",
+  "category": "Brave",
+  "channels": [
+    "Top Sources",
+    "Brave"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "/html/body/main/section[1]/div/h1/text()",
+    "author": "",
+    "publication_date": "/html/body/main/div/aside[1]/div[2]/p[1]/time/@datetime",
+    "summary": "",
+    "content": "/html/body/main/div/section",
+    "tags": [],
+    "categories": [
+      "/html/body/main/div/aside[1]/div[1]/a[2]"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cb8"
+  },
+  "title": "CNN",
+  "domain": "www.cnn.com",
+  "rss": "http://rss.cnn.com/rss/edition_world.rss",
+  "category": "World News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "World News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "/html/body/div[3]/section[3]/div/div[1]/h1/text()",
+    "author": [
+      "/html/body/div[3]/section[2]/div[2]/div[2]/div[1]/div/div[1]/div[2]/a[...]/span/text()",
+      "/html/body/div[3]/section[3]/div[2]/div[2]/div[1]/div/div[1]/div[2]/span[...]/text()"
+    ],
+    "publication_date": "/html/head/meta[20]/@content",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cb9"
+  },
+  "title": "The New York Times",
+  "domain": "www.nytimes.com",
+  "rss": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cba"
+  },
+  "title": "BBC",
+  "domain": "www.bbc.co.uk",
+  "rss": "https://feeds.bbci.co.uk/news/rss.xml?edition=int",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cbb"
+  },
+  "title": "FOX News",
+  "domain": "www.foxnews.com",
+  "rss": "https://feeds.foxnews.com/foxnews/latest",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cbc"
+  },
+  "title": "The Guardian",
+  "domain": "www.theguardian.com",
+  "rss": "https://www.theguardian.com/world/rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cbd"
+  },
+  "title": "Washington Post",
+  "domain": "www.washingtonpost.com",
+  "rss": "https://www.washingtonpost.com/?outputType=rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cbe"
+  },
+  "title": "NBC News",
+  "domain": "www.nbcnews.com",
+  "rss": "https://feeds.nbcnews.com/nbcnews/public/news",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cbf"
+  },
+  "title": "ABC News",
+  "domain": "abcnews.go.com",
+  "rss": "https://abcnews.go.com/abcnews/topstories",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc0"
+  },
+  "title": "Daily Mail",
+  "domain": "www.dailymail.co.uk",
+  "rss": "https://www.dailymail.co.uk/home/index.rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc1"
+  },
+  "title": "New York Post",
+  "domain": "nypost.com",
+  "rss": "https://nypost.com/news/feed/",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc2"
+  },
+  "title": "NPR",
+  "domain": "www.npr.org",
+  "rss": "https://feeds.npr.org/1001/rss.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc3"
+  },
+  "title": "WSJ",
+  "domain": "www.wsj.com",
+  "rss": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc4"
+  },
+  "title": "LA Times",
+  "domain": "www.latimes.com",
+  "rss": "https://www.latimes.com/local/rss2.0.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc5"
+  },
+  "title": "Newsweek",
+  "domain": "www.newsweek.com",
+  "rss": "https://www.newsweek.com/rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc6"
+  },
+  "title": "Politico",
+  "domain": "www.politico.com",
+  "rss": "https://rss.politico.com/politics-news.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc7"
+  },
+  "title": "The Independent",
+  "domain": "www.independent.co.uk",
+  "rss": "https://www.independent.co.uk/rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc8"
+  },
+  "title": "Breitbart",
+  "domain": "www.breitbart.com",
+  "rss": "https://feeds.feedburner.com/breitbart",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cc9"
+  },
+  "title": "The Hill",
+  "domain": "thehill.com",
+  "rss": "https://thehill.com/rss/syndicator/19110",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cca"
+  },
+  "title": "The Washington Times",
+  "domain": "www.washingtontimes.com",
+  "rss": "https://www.washingtontimes.com/rss/headlines/news/",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ccb"
+  },
+  "title": "The Daily Beast",
+  "domain": "www.thedailybeast.com",
+  "rss": "https://feeds.feedburner.com/thedailybeast/articles",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ccc"
+  },
+  "title": "The Telegraph",
+  "domain": "www.telegraph.co.uk",
+  "rss": "https://www.telegraph.co.uk/news/rss.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ccd"
+  },
+  "title": "Daily Caller",
+  "domain": "dailycaller.com",
+  "rss": "https://dailycaller.com/section/us/feed/",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cce"
+  },
+  "title": "The Blaze",
+  "domain": "www.theblaze.com",
+  "rss": "https://www.theblaze.com/feeds/news.rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ccf"
+  },
+  "title": "CBC",
+  "domain": "www.cbc.ca",
+  "rss": "https://www.cbc.ca/cmlink/rss-topstories",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd0"
+  },
+  "title": "Al Jazeera",
+  "domain": "www.aljazeera.com",
+  "rss": "https://www.aljazeera.com/xml/rss/all.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd1"
+  },
+  "title": "Sydney Morning Herald",
+  "domain": "www.smh.com.au",
+  "rss": "https://www.smh.com.au/rss/feed.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd2"
+  },
+  "title": "Axios",
+  "domain": "www.axios.com",
+  "rss": "https://api.axios.com/feed/",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd3"
+  },
+  "title": "Der Spiegel",
+  "domain": "www.spiegel.de",
+  "rss": "https://www.spiegel.de/international/index.rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd4"
+  },
+  "title": "Sky News",
+  "domain": "news.sky.com",
+  "rss": "https://feeds.skynews.com/feeds/rss/world.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd5"
+  },
+  "title": "The Boston Globe",
+  "domain": "www.bostonglobe.com",
+  "rss": "https://www.bostonglobe.com/rss/feedly.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd6"
+  },
+  "title": "Euronews",
+  "domain": "www.euronews.com",
+  "rss": "https://feeds.feedburner.com/euronews/en/home/",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd7"
+  },
+  "title": "Financial Times",
+  "domain": "www.ft.com",
+  "rss": "https://www.ft.com/rss/home/uk",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd8"
+  },
+  "title": "Mother Jones",
+  "domain": "www.motherjones.com",
+  "rss": "https://feeds.feedburner.com/motherjones/main",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cd9"
+  },
+  "title": "The Christian Science Monitor",
+  "domain": "www.csmonitor.com",
+  "rss": "https://rss.csmonitor.com/feeds/top",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cda"
+  },
+  "title": "ProPublica",
+  "domain": "www.propublica.org",
+  "rss": "https://www.propublica.org/feeds/propublica/main",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cdb"
+  },
+  "title": "The New Republic",
+  "domain": "newrepublic.com",
+  "rss": "https://newrepublic.com/rss.xml",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cdc"
+  },
+  "title": "Democracy Now!",
+  "domain": "www.democracynow.org",
+  "rss": "https://www.democracynow.org/democracynow.rss",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cdd"
+  },
+  "title": "Foreign Policy",
+  "domain": "foreignpolicy.com",
+  "rss": "https://foreignpolicy.com/feed/",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cde"
+  },
+  "title": "The Nation",
+  "domain": "www.thenation.com",
+  "rss": "https://www.thenation.com/feed/?post_type=article",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News",
+    "Politics"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cdf"
+  },
+  "title": "HuffPost",
+  "domain": "www.huffpost.com",
+  "rss": "https://www.huffpost.com/section/world-news/feed",
+  "category": "Top News",
+  "channels": [
+    "Top Sources",
+    "Top News"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce0"
+  },
+  "title": "Yahoo Finance",
+  "domain": "www.barrons.com;www.marketwatch.com;www.investors.com;finance.yahoo.com;www.investopedia.com",
+  "rss": "https://finance.yahoo.com/rss/topstories",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce1"
+  },
+  "title": "Fast Company",
+  "domain": "www.fastcompany.com",
+  "rss": "https://feeds.feedburner.com/fastcompany/headlines",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce2"
+  },
+  "title": "Forbes",
+  "domain": "www.forbes.com",
+  "rss": "https://www.forbes.com/real-time/feed/",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce3"
+  },
+  "title": "WSJ - Markets",
+  "domain": "www.wsj.com",
+  "rss": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce4"
+  },
+  "title": "CNBC",
+  "domain": "www.cnbc.com",
+  "rss": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce5"
+  },
+  "title": "Business Insider",
+  "domain": "www.businessinsider.com;markets.businessinsider.com",
+  "rss": "https://feeds2.feedburner.com/businessinsider",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce6"
+  },
+  "title": "Entrepreneur",
+  "domain": "www.entrepreneur.com",
+  "rss": "https://feeds.feedburner.com/entrepreneur/latest",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce7"
+  },
+  "title": "Harvard Business Review",
+  "domain": "hbr.org",
+  "rss": "https://feeds.harvardbusiness.org/harvardbusiness/",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce8"
+  },
+  "title": "MarketWatch",
+  "domain": "www.marketwatch.com",
+  "rss": "https://feeds.marketwatch.com/marketwatch/topstories/",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ce9"
+  },
+  "title": "Inc.com",
+  "domain": "www.inc.com",
+  "rss": "https://www.inc.com/rss/homepage.xml",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cea"
+  },
+  "title": "The Economist",
+  "domain": "www.economist.com",
+  "rss": "https://www.economist.com/business/rss.xml",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ceb"
+  },
+  "title": "Freakonomics",
+  "domain": "freakonomics.com",
+  "rss": "https://freakonomics.com/feed/",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cec"
+  },
+  "title": "The Motley Fool",
+  "domain": "www.fool.com",
+  "rss": "https://www.fool.com/a/feeds/foolwatch?format=rss2&id=foolwatch&apikey=foolwatch-feed",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039ced"
+  },
+  "title": "FOX Business",
+  "domain": "www.foxbusiness.com",
+  "rss": "https://feeds.foxbusiness.com/foxbusiness/latest",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cee"
+  },
+  "title": "Quartz",
+  "domain": "qz.com",
+  "rss": "https://cms.qz.com/feed/",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cef"
+  },
+  "title": "PSFK",
+  "domain": "www.psfk.com",
+  "rss": "https://www.psfk.com/feeds/psfk",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf0"
+  },
+  "title": "Small Business Trends",
+  "domain": "smallbiztrends.com",
+  "rss": "https://feeds.feedburner.com/SmallBusinessTrends",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf1"
+  },
+  "title": "Seeking Alpha",
+  "domain": "seekingalpha.com",
+  "rss": "https://seekingalpha.com/feed.xml",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf2"
+  },
+  "title": "Fortune",
+  "domain": "fortune.com",
+  "rss": "https://fortune.com/feed/",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf3"
+  },
+  "title": "Financial Times - Markets",
+  "domain": "www.ft.com",
+  "rss": "https://www.ft.com/markets?format=rss",
+  "category": "Business",
+  "channels": [
+    "Top Sources",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf4"
+  },
+  "title": "Autoblog",
+  "domain": "www.autoblog.com",
+  "rss": "https://www.autoblog.com/rss.xml",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf5"
+  },
+  "title": "Jalopnik",
+  "domain": "jalopnik.com",
+  "rss": "https://jalopnik.com/rss",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf6"
+  },
+  "title": "Car and Driver",
+  "domain": "www.caranddriver.com",
+  "rss": "https://www.caranddriver.com/rss/all.xml/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf7"
+  },
+  "title": "Edmunds",
+  "domain": "www.edmunds.com",
+  "rss": "https://www.edmunds.com/feeds/rss/articles.xml",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf8"
+  },
+  "title": "Motor1",
+  "domain": "www.motor1.com",
+  "rss": "https://www.motor1.com/rss/news/all/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cf9"
+  },
+  "title": "The Truth About Cars",
+  "domain": "www.thetruthaboutcars.com",
+  "rss": "https://www.thetruthaboutcars.com/feed/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cfa"
+  },
+  "title": "Electrek",
+  "domain": "electrek.co",
+  "rss": "https://electrek.co/feed/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cfb"
+  },
+  "title": "InsideEVs",
+  "domain": "insideevs.com",
+  "rss": "https://insideevs.com/rss/articles/all/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cfc"
+  },
+  "title": "CarBuzz",
+  "domain": "carbuzz.com",
+  "rss": "https://carbuzz.com/rss/news",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cfd"
+  },
+  "title": "Autosport",
+  "domain": "www.autosport.com",
+  "rss": "https://www.autosport.com/rss/all/news/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cfe"
+  },
+  "title": "Speedhunters",
+  "domain": "www.speedhunters.com",
+  "rss": "https://feeds.feedburner.com/Speedhunters",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039cff"
+  },
+  "title": "Carscoops",
+  "domain": "www.carscoops.com",
+  "rss": "https://www.carscoops.com/category/news/feed/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d00"
+  },
+  "title": "Bike EXIF",
+  "domain": "www.bikeexif.com",
+  "rss": "https://www.bikeexif.com/feed",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d01"
+  },
+  "title": "The Drive",
+  "domain": "www.thedrive.com",
+  "rss": "https://api.thedrive.com/feed/?post_type=the_drive_article",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d02"
+  },
+  "title": "Autocar",
+  "domain": "www.autocar.co.uk",
+  "rss": "https://www.autocar.co.uk/rss/latestnews",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d03"
+  },
+  "title": "Bring A Trailer",
+  "domain": "bringatrailer.com",
+  "rss": "https://bringatrailer.com/feed/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d04"
+  },
+  "title": "Paul Tan's Automotive News",
+  "domain": "paultan.org",
+  "rss": "https://paultan.org/feed/",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d05"
+  },
+  "title": "The Car Connection",
+  "domain": "www.motorauthority.com",
+  "rss": "https://feeds.feedburner.com/MotorAuthority2",
+  "category": "Cars",
+  "channels": [
+    "Top Sources",
+    "Cars"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d06"
+  },
+  "title": "Cointelegraph",
+  "domain": "cointelegraph.com",
+  "rss": "https://cointelegraph.com/rss",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d07"
+  },
+  "title": "Bitcoin Magazine",
+  "domain": "bitcoinmagazine.com",
+  "rss": "https://feeds.feedburner.com/BitcoinMagazine",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d08"
+  },
+  "title": "Decrypt",
+  "domain": "decrypt.co",
+  "rss": "https://decrypt.co/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d09"
+  },
+  "title": "Bitcoinist",
+  "domain": "bitcoinist.com",
+  "rss": "https://feeds.feedburner.com/bitcoinist/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d0a"
+  },
+  "title": "NewsBTC",
+  "domain": "www.newsbtc.com",
+  "rss": "https://www.newsbtc.com/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d0b"
+  },
+  "title": "99 Bitcoins",
+  "domain": "99bitcoins.com",
+  "rss": "https://99bitcoins.com/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d0c"
+  },
+  "title": "CryptoSlate",
+  "domain": "cryptoslate.com",
+  "rss": "https://cryptoslate.com/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d0d"
+  },
+  "title": "Finance Magnates",
+  "domain": "www.financemagnates.com",
+  "rss": "https://www.financemagnates.com/cryptocurrency/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d0e"
+  },
+  "title": "BTCMANAGER",
+  "domain": "btcmanager.com",
+  "rss": "https://btcmanager.com/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d0f"
+  },
+  "title": "Blockgeeks",
+  "domain": "blockgeeks.com",
+  "rss": "https://blockgeeks.com/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d10"
+  },
+  "title": "CryptoPotato",
+  "domain": "cryptopotato.com",
+  "rss": "https://cryptopotato.com/feed/",
+  "category": "Crypto",
+  "channels": [
+    "Top Sources",
+    "Crypto"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d11"
+  },
+  "title": "Wikihow",
+  "domain": "www.wikihow.com",
+  "rss": "https://www.wikihow.com/feed.rss",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d12"
+  },
+  "title": "The Atlantic",
+  "domain": "www.theatlantic.com",
+  "rss": "https://feeds.feedburner.com/TheAtlantic",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture",
+    "Politics"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d13"
+  },
+  "title": "TED Talks",
+  "domain": "www.ted.com",
+  "rss": "https://feeds.feedburner.com/tedtalks_video",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture",
+    "Video"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d14"
+  },
+  "title": "Vox",
+  "domain": "www.vox.com",
+  "rss": "https://www.vox.com/rss/index.xml",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d15"
+  },
+  "title": "Slate",
+  "domain": "slate.com",
+  "rss": "https://slate.com/feeds/all.rss",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d16"
+  },
+  "title": "VICE",
+  "domain": "www.vice.com",
+  "rss": "https://www.vice.com/en/rss?locale=en_us",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d17"
+  },
+  "title": "The New Yorker",
+  "domain": "www.newyorker.com",
+  "rss": "https://www.newyorker.com/feed/everything",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d18"
+  },
+  "title": "Boing Boing",
+  "domain": "boingboing.net",
+  "rss": "https://boingboing.net/feed",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d19"
+  },
+  "title": "Brain Pickings",
+  "domain": "www.themarginalian.org",
+  "rss": "https://feeds.feedburner.com/brainpickings/rss",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d1a"
+  },
+  "title": "Vanity Fair",
+  "domain": "www.vanityfair.com",
+  "rss": "https://www.vanityfair.com/feed/rss",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d1b"
+  },
+  "title": "Cool Hunting",
+  "domain": "coolhunting.com",
+  "rss": "https://coolhunting.com/feed/atom/",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d1c"
+  },
+  "title": "Complex",
+  "domain": "www.complex.com;solecollector.com",
+  "rss": "https://assets.complex.com/feeds/channels/all.xml",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d1d"
+  },
+  "title": "Mental Floss",
+  "domain": "www.mentalfloss.com",
+  "rss": "https://www.mentalfloss.com/rss.xml",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d1e"
+  },
+  "title": "Thought Catalog",
+  "domain": "thoughtcatalog.com",
+  "rss": "https://feeds.feedburner.com/ThoughtCatalog",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d1f"
+  },
+  "title": "Open Culture",
+  "domain": "www.openculture.com",
+  "rss": "https://feeds.feedburner.com/OpenCulture",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d20"
+  },
+  "title": "Salon.com",
+  "domain": "www.salon.com",
+  "rss": "https://www.salon.com/feed/",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d21"
+  },
+  "title": "PostSecret",
+  "domain": "postsecret.blogspot.com",
+  "rss": "https://postsecret.blogspot.com/feeds/posts/default",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d22"
+  },
+  "title": "Upworthy",
+  "domain": "biztoc.com",
+  "rss": "https://feeds.feedburner.com/upworthy",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d23"
+  },
+  "title": "kottke.org",
+  "domain": "kottke.org",
+  "rss": "https://feeds.kottke.org/main",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d24"
+  },
+  "title": "The New York Review of Books",
+  "domain": "www.nybooks.com",
+  "rss": "https://feeds.feedburner.com/nybooks",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d25"
+  },
+  "title": "The Root",
+  "domain": "www.theroot.com",
+  "rss": "https://www.theroot.com/rss/full",
+  "category": "Culture",
+  "channels": [
+    "Top Sources",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d26"
+  },
+  "title": "TMZ",
+  "domain": "www.tmz.com",
+  "rss": "https://www.tmz.com/rss.xml",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d27"
+  },
+  "title": "Rolling Stone",
+  "domain": "www.rollingstone.com",
+  "rss": "https://www.rollingstone.com/music/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Music"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d28"
+  },
+  "title": "Variety",
+  "domain": "variety.com",
+  "rss": "https://feeds.feedburner.com/variety/headlines",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Celebs",
+    "Film",
+    "TV"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d29"
+  },
+  "title": "E! Online",
+  "domain": "www.eonline.com",
+  "rss": "https://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Celebs",
+    "Film",
+    "TV"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d2a"
+  },
+  "title": "IndieWire",
+  "domain": "www.indiewire.com",
+  "rss": "https://www.indiewire.com/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Film"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d2b"
+  },
+  "title": "io9",
+  "domain": "gizmodo.com",
+  "rss": "https://feeds.feedburner.com/io9/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d2c"
+  },
+  "title": "Deadline",
+  "domain": "deadline.com",
+  "rss": "https://deadline.com/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Film"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d2d"
+  },
+  "title": "SlashFilm",
+  "domain": "www.slashfilm.com",
+  "rss": "https://feeds.feedburner.com/slashfilm",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Film"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d2e"
+  },
+  "title": "IGN Reviews",
+  "domain": "www.ign.com",
+  "rss": "https://feeds.ign.com/ign/reviews",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d2f"
+  },
+  "title": "The A.V. Club",
+  "domain": "www.avclub.com",
+  "rss": "https://www.avclub.com/rss",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d30"
+  },
+  "title": "Vanity Fair",
+  "domain": "www.vanityfair.com",
+  "rss": "https://www.vanityfair.com/feed/rss",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Culture"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d31"
+  },
+  "title": "FirstShowing.net",
+  "domain": "www.firstshowing.net",
+  "rss": "https://www.firstshowing.net/feed/?full",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d32"
+  },
+  "title": "ET",
+  "domain": "www.etonline.com",
+  "rss": "https://feeds.feedburner.com/ETTopStories",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Celebs",
+    "Film",
+    "TV"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d33"
+  },
+  "title": "Us Weekly",
+  "domain": "www.usmagazine.com",
+  "rss": "https://www.usmagazine.com/category/entertainment/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment",
+    "Celebs",
+    "Film",
+    "TV"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d34"
+  },
+  "title": "Flavorwire",
+  "domain": "www.flavorwire.com",
+  "rss": "https://feeds.feedburner.com/flavorwire-rss",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d35"
+  },
+  "title": "Film School Rejects",
+  "domain": "filmschoolrejects.com",
+  "rss": "https://feeds.feedburner.com/FilmSchoolRejects",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d36"
+  },
+  "title": "Ain't It Cool",
+  "domain": "www.aintitcool.com",
+  "rss": "https://www.aintitcool.com/node/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d37"
+  },
+  "title": "CinemaBlend",
+  "domain": "www.cinemablend.com",
+  "rss": "https://www.cinemablend.com/rss/topic/news/movies",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d38"
+  },
+  "title": "Hollywood Life",
+  "domain": "hollywoodlife.com",
+  "rss": "https://hollywoodlife.com/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d39"
+  },
+  "title": "TVLine",
+  "domain": "tvline.com",
+  "rss": "https://tvline.com/feed/",
+  "category": "Entertainment",
+  "channels": [
+    "Top Sources",
+    "Entertainment"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d3a"
+  },
+  "title": "Refinery29",
+  "domain": "www.refinery29.com",
+  "rss": "https://www.refinery29.com/index.xml",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d3b"
+  },
+  "title": "The Art of Manliness",
+  "domain": "www.artofmanliness.com",
+  "rss": "https://feeds2.feedburner.com/TheArtOfManliness",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d3c"
+  },
+  "title": "Hypebeast",
+  "domain": "hypebeast.com",
+  "rss": "https://feeds.feedburner.com/hypebeast/feed",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d3d"
+  },
+  "title": "Popsugar",
+  "domain": "www.popsugar.com",
+  "rss": "https://www.popsugar.com/feed",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d3e"
+  },
+  "title": "Uncrate",
+  "domain": "uncrate.com",
+  "rss": "https://feeds.feedburner.com/uncrate",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d3f"
+  },
+  "title": "Fashionista",
+  "domain": "fashionista.com",
+  "rss": "https://feeds.feedburner.com/fashionistacom",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d40"
+  },
+  "title": "GQ",
+  "domain": "www.gq.com",
+  "rss": "https://www.gq.com/feed/rss",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d41"
+  },
+  "title": "Esquire",
+  "domain": "www.esquire.com",
+  "rss": "https://www.esquire.com/rss/style.xml/",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d42"
+  },
+  "title": "Who What Wear",
+  "domain": "www.whowhatwear.com",
+  "rss": "https://feeds.whowhatwear.com/whowhatwear",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d43"
+  },
+  "title": "Elle",
+  "domain": "www.elle.com",
+  "rss": "https://www.elle.com/rss/fashion.xml/",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d44"
+  },
+  "title": "Vogue",
+  "domain": "www.vogue.com",
+  "rss": "https://www.vogue.com/feed/rss",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d45"
+  },
+  "title": "Highsnobiety",
+  "domain": "www.highsnobiety.com",
+  "rss": "https://feeds.feedburner.com/highsnobiety/rss",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d46"
+  },
+  "title": "The Business of Fashion",
+  "domain": "www.businessoffashion.com",
+  "rss": "https://www.businessoffashion.com/arc/outboundfeeds/rss/?outputType=xml",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d47"
+  },
+  "title": "Into The Gloss",
+  "domain": "intothegloss.com",
+  "rss": "https://feeds.feedburner.com/intothegloss/oqoU",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d48"
+  },
+  "title": "DORÉ",
+  "domain": "www.wearedore.com",
+  "rss": "https://www.wearedore.com/feed/",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d49"
+  },
+  "title": "WWD",
+  "domain": "wwd.com",
+  "rss": "https://wwd.com/custom-feed/recent-stories/",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d4a"
+  },
+  "title": "Bubby and Bean",
+  "domain": "www.bubbyandbean.com",
+  "rss": "https://feeds.feedburner.com/BubbyAndBean",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d4b"
+  },
+  "title": "Honestly WTF",
+  "domain": "honestlywtf.com",
+  "rss": "https://feeds.feedburner.com/honestlywtf",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d4c"
+  },
+  "title": "FashionBeans",
+  "domain": "www.fashionbeans.com",
+  "rss": "https://www.fashionbeans.com/feed/",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d4d"
+  },
+  "title": "Put This On",
+  "domain": "putthison.com",
+  "rss": "https://putthison.com/feed/",
+  "category": "Fashion",
+  "channels": [
+    "Top Sources",
+    "Fashion"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d4e"
+  },
+  "title": "Kitchn",
+  "domain": "www.thekitchn.com",
+  "rss": "https://feeds.feedburner.com/apartmenttherapy/thekitchn",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d4f"
+  },
+  "title": "Bon Appétit",
+  "domain": "www.bonappetit.com",
+  "rss": "https://www.bonappetit.com/feed/rss",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d50"
+  },
+  "title": "Lifehacker - Skillet",
+  "domain": "lifehacker.com",
+  "rss": "https://lifehacker.com/rss",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d51"
+  },
+  "title": "Eater",
+  "domain": "www.eater.com;nymag.com;austin.eater.com",
+  "rss": "https://feeds.feedburner.com/EaterNational",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d52"
+  },
+  "title": "Simply Recipes",
+  "domain": "www.simplyrecipes.com",
+  "rss": "https://www.simplyrecipes.com/feeds/google-news",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d53"
+  },
+  "title": "Serious Eats",
+  "domain": "www.seriouseats.com",
+  "rss": "https://feeds.seriouseats.com/seriouseatsfeaturesvideos",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d54"
+  },
+  "title": "Food52",
+  "domain": "food52.com",
+  "rss": "https://feeds.feedburner.com/food52-TheAandMBlog",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d55"
+  },
+  "title": "Pinch of Yum",
+  "domain": "pinchofyum.com",
+  "rss": "https://feeds.feedburner.com/pinch-of-yum",
+  "category": "Food",
+  "channels": [
+    "Top Sources",
+    "Food"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d56"
+  },
+  "title": "Dilbert Daily Strip",
+  "domain": "dilbert.com",
+  "rss": "https://feeds.feedburner.com/DilbertDailyStrip",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d57"
+  },
+  "title": "The Onion",
+  "domain": "www.theonion.com",
+  "rss": "https://www.theonion.com/rss",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d58"
+  },
+  "title": "FAIL Blog",
+  "domain": "cheezburger.com",
+  "rss": "https://feeds.feedburner.com/failblog",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d59"
+  },
+  "title": "The Oatmeal",
+  "domain": "theoatmeal.com",
+  "rss": "https://theoatmeal.com/feed/rss",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d5a"
+  },
+  "title": "Saturday Morning Breakfast Cereal",
+  "domain": "www.smbc-comics.com",
+  "rss": "https://www.smbc-comics.com/comic/rss",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d5b"
+  },
+  "title": "Cracked",
+  "domain": "www.cracked.com",
+  "rss": "https://feeds.feedburner.com/CrackedRSS",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d5c"
+  },
+  "title": "I Can Has Cheezburger?",
+  "domain": "cheezburger.com",
+  "rss": "https://feeds.feedburner.com/ICanHasCheezburger",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d5d"
+  },
+  "title": "Penny Arcade",
+  "domain": "www.penny-arcade.com",
+  "rss": "https://feeds.penny-arcade.com/pa-mainsite",
+  "category": "Fun",
+  "channels": [
+    "Top Sources",
+    "Fun"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d5e"
+  },
+  "title": "Healthline",
+  "domain": "www.healthline.com",
+  "rss": "https://www.healthline.com/rss/health-news",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d5f"
+  },
+  "title": "WebMD Health",
+  "domain": "www.webmd.com",
+  "rss": "https://rssfeeds.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d60"
+  },
+  "title": "Mayo Clinic",
+  "domain": "www.mayoclinic.org",
+  "rss": "https://www.mayoclinic.org/rss/all-health-information-topics",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d61"
+  },
+  "title": "Men's Health",
+  "domain": "www.menshealth.com",
+  "rss": "https://www.menshealth.com/rss/all.xml/",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health",
+    "Fitness"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d62"
+  },
+  "title": "Nerd Fitness",
+  "domain": "www.nerdfitness.com",
+  "rss": "https://feeds.feedburner.com/NerdFitnessBlog",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health",
+    "Fitness"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d63"
+  },
+  "title": "mindbodygreen",
+  "domain": "www.mindbodygreen.com",
+  "rss": "https://www.mindbodygreen.com/rss/feed.xml",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d64"
+  },
+  "title": "New England Journal of Medicine",
+  "domain": "www.nejm.org",
+  "rss": "https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d65"
+  },
+  "title": "SELF",
+  "domain": "www.self.com",
+  "rss": "https://www.self.com/feed/rss",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health",
+    "Fitness"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d66"
+  },
+  "title": "Greatist",
+  "domain": "greatist.com",
+  "rss": "https://greatist.com/feed",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d67"
+  },
+  "title": "Well+Good",
+  "domain": "www.wellandgood.com",
+  "rss": "https://www.wellandgood.com/feed/",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d68"
+  },
+  "title": "MedicineNet",
+  "domain": "www.medicinenet.com",
+  "rss": "https://www.medicinenet.com/rss/dailyhealth.xml",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d69"
+  },
+  "title": "Shape Magazine",
+  "domain": "www.shape.com",
+  "rss": "https://www.shape.com/rss.xml",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health",
+    "Fitness"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d6a"
+  },
+  "title": "Wellness Mama",
+  "domain": "wellnessmama.com",
+  "rss": "https://wellnessmama.com/feed/",
+  "category": "Health",
+  "channels": [
+    "Top Sources",
+    "Health"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d6b"
+  },
+  "title": "Houzz",
+  "domain": "www.houzz.com",
+  "rss": "https://www.houzz.com/getGalleries/featured/out-rss",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "Design"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d6c"
+  },
+  "title": "Apartment Therapy",
+  "domain": "www.apartmenttherapy.com",
+  "rss": "https://www.apartmenttherapy.com/main.rss",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d6d"
+  },
+  "title": "Design Milk",
+  "domain": "design-milk.com",
+  "rss": "https://feeds.feedburner.com/design-milk",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "Design"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d6e"
+  },
+  "title": "Bob Vila",
+  "domain": "www.bobvila.com",
+  "rss": "https://www.bobvila.com/rss.xml",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "DIY"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d6f"
+  },
+  "title": "Contemporist",
+  "domain": "www.contemporist.com",
+  "rss": "https://feeds.feedburner.com/contemporist",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d70"
+  },
+  "title": "Trendir",
+  "domain": "www.trendir.com",
+  "rss": "https://feeds.feedburner.com/trendir/",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d71"
+  },
+  "title": "sfgirlbybay",
+  "domain": "www.sfgirlbybay.com",
+  "rss": "https://www.sfgirlbybay.com/feed/",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d72"
+  },
+  "title": "Poppytalk",
+  "domain": "poppytalk.blogspot.com",
+  "rss": "https://feeds.feedburner.com/blogspot/ISuVv",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d73"
+  },
+  "title": "Juniper Home",
+  "domain": "juniperhome.com",
+  "rss": "https://juniperhome.com/blog/feed/",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d74"
+  },
+  "title": "Homedit",
+  "domain": "www.homedit.com",
+  "rss": "https://feeds.feedburner.com/Homedit",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "Design"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d75"
+  },
+  "title": "Making it Lovely",
+  "domain": "makingitlovely.com",
+  "rss": "https://feeds2.feedburner.com/makingitlovely",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "Design"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d76"
+  },
+  "title": "Remodelista",
+  "domain": "www.remodelista.com",
+  "rss": "https://www.remodelista.com/feed/",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "Design"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d77"
+  },
+  "title": "domino",
+  "domain": "www.domino.com",
+  "rss": "https://www.domino.com/feed/",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d78"
+  },
+  "title": "The Design Files",
+  "domain": "thedesignfiles.net",
+  "rss": "https://thedesignfiles.net/feed/",
+  "category": "Home",
+  "channels": [
+    "Top Sources",
+    "Home",
+    "Design"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d79"
+  },
+  "title": "Starts With A Bang!",
+  "domain": "medium.com",
+  "rss": "https://medium.com/feed/starts-with-a-bang",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d7a"
+  },
+  "title": "Livescience.com",
+  "domain": "www.livescience.com",
+  "rss": "https://feeds.feedburner.com/Livesciencecom",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d7b"
+  },
+  "title": "Scientific American",
+  "domain": "www.scientificamerican.com",
+  "rss": "https://rss.sciam.com/ScientificAmerican-Global",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d7c"
+  },
+  "title": "Popular Science",
+  "domain": "www.popsci.com",
+  "rss": "https://www.popsci.com/feed/",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d7d"
+  },
+  "title": "Nature",
+  "domain": "www.nature.com",
+  "rss": "https://feeds.nature.com/nature/rss/current",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d7e"
+  },
+  "title": "Space.com",
+  "domain": "www.space.com",
+  "rss": "https://www.space.com/feeds/all",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d7f"
+  },
+  "title": "ScienceMag",
+  "domain": "www.science.org",
+  "rss": "https://www.science.org/rss/news_current.xml",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d80"
+  },
+  "title": "ScienceAlert",
+  "domain": "www.sciencealert.com",
+  "rss": "https://feeds.feedburner.com/sciencealert-latestnews",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d81"
+  },
+  "title": "NASA Image of the Day",
+  "domain": "www.nasa.gov",
+  "rss": "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science",
+    "Photos"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d82"
+  },
+  "title": "New Scientist",
+  "domain": "www.newscientist.com",
+  "rss": "https://feeds.newscientist.com/science-news/",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d83"
+  },
+  "title": "Ars Technica",
+  "domain": "arstechnica.com",
+  "rss": "https://feeds.arstechnica.com/arstechnica/science",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d84"
+  },
+  "title": "Smithsonian Magazine",
+  "domain": "www.smithsonianmag.com",
+  "rss": "https://feeds.feedburner.com/smithsonianmag/science-nature",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d85"
+  },
+  "title": "Information is Beautiful",
+  "domain": "informationisbeautiful.net",
+  "rss": "https://feeds.feedburner.com/InformationIsBeautiful",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d86"
+  },
+  "title": "ScienceDaily",
+  "domain": "www.sciencedaily.com",
+  "rss": "https://www.sciencedaily.com/newsfeed.xml",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d87"
+  },
+  "title": "Futurism",
+  "domain": "futurism.com",
+  "rss": "https://futurism.com/feed",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d88"
+  },
+  "title": "FlowingData",
+  "domain": "flowingdata.com",
+  "rss": "https://flowingdata.com/feed",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d89"
+  },
+  "title": "Futurity",
+  "domain": "www.futurity.org",
+  "rss": "https://www.futurity.org/feed/",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d8a"
+  },
+  "title": "Bad Astronomy",
+  "domain": "www.syfy.com",
+  "rss": "https://www.syfy.com/syfy-wire/topic/bad-astronomy/feed",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d8b"
+  },
+  "title": "Phys.org",
+  "domain": "phys.org",
+  "rss": "https://phys.org/rss-feed/",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d8c"
+  },
+  "title": "Big Think",
+  "domain": "bigthink.com",
+  "rss": "https://feeds.feedburner.com/bigthink/main",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d8d"
+  },
+  "title": "NASA Breaking News",
+  "domain": "www.nasa.gov",
+  "rss": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d8e"
+  },
+  "title": "Mind Hacks",
+  "domain": "mindhacks.com",
+  "rss": "https://mindhacks.com/feed/atom/",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d8f"
+  },
+  "title": "FiveThirtyEight - Science",
+  "domain": "fivethirtyeight.com",
+  "rss": "https://fivethirtyeight.com/science/feed/",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d90"
+  },
+  "title": "IEEE Spectrum",
+  "domain": "spectrum.ieee.org",
+  "rss": "https://feeds2.feedburner.com/IeeeSpectrum",
+  "category": "Science",
+  "channels": [
+    "Top Sources",
+    "Science"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d91"
+  },
+  "title": "ESPN",
+  "domain": "www.espn.com",
+  "rss": "https://www.espn.com/espn/rss/news",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d92"
+  },
+  "title": "Bleacher Report",
+  "domain": "bleacherreport.com",
+  "rss": "https://bleacherreport.com/articles/feed",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d93"
+  },
+  "title": "Yahoo! Sports",
+  "domain": "news.yahoo.com",
+  "rss": "https://news.yahoo.com/rss/sports",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d94"
+  },
+  "title": "CBSSports",
+  "domain": "www.cbssports.com",
+  "rss": "https://www.cbssports.com/rss/headlines/",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d95"
+  },
+  "title": "Deadspin",
+  "domain": "deadspin.com",
+  "rss": "https://feeds.feedburner.com/deadspin/",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d96"
+  },
+  "title": "SkySports",
+  "domain": "www.skysports.com",
+  "rss": "https://www.skysports.com/rss/11095",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d97"
+  },
+  "title": "ESPN - Cricket",
+  "domain": "www.espncricinfo.com",
+  "rss": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports",
+    "Cricket"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d98"
+  },
+  "title": "SBNation.com",
+  "domain": "www.sbnation.com",
+  "rss": "https://feeds.sbnation.com/rss/current",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d99"
+  },
+  "title": "The Telegraph - Sports",
+  "domain": "www.telegraph.co.uk",
+  "rss": "https://www.telegraph.co.uk/sport/rss.xml",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d9a"
+  },
+  "title": "FiveThirtyEight - Sports",
+  "domain": "projects.fivethirtyeight.com;fivethirtyeight.com",
+  "rss": "https://fivethirtyeight.com/sports/feed/",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d9b"
+  },
+  "title": "ESPN - Football",
+  "domain": "www.espn.com",
+  "rss": "https://www.espn.com/espn/rss/soccer/news",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports",
+    "Football"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d9c"
+  },
+  "title": "FOX Sports",
+  "domain": "www.foxsports.com",
+  "rss": "https://api.foxsports.com/v1/rss",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d9d"
+  },
+  "title": "MLB Trade Rumors",
+  "domain": "www.mlbtraderumors.com",
+  "rss": "https://www.mlbtraderumors.com/feed/atom",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports",
+    "Baseball"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d9e"
+  },
+  "title": "FanGraphs Baseball",
+  "domain": "blogs.fangraphs.com",
+  "rss": "https://blogs.fangraphs.com/feed/",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports",
+    "Baseball"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039d9f"
+  },
+  "title": "Uproxx - Sports",
+  "domain": "uproxx.com",
+  "rss": "https://feeds.feedburner.com/uproxx/withleather",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da0"
+  },
+  "title": "The Ringer",
+  "domain": "www.theringer.com",
+  "rss": "https://www.theringer.com/rss/index.xml",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da1"
+  },
+  "title": "Arseblog",
+  "domain": "shows.acast.com",
+  "rss": "https://feeds.feedburner.com/arseblog",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da2"
+  },
+  "title": "The Athletic",
+  "domain": "theathletic.com",
+  "rss": "https://theathletic.com/rss-feed/",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da3"
+  },
+  "title": "RealGM Basketball Wiretap",
+  "domain": "basketball.realgm.com",
+  "rss": "https://basketball.realgm.com/rss/realgm_nba_wiretap.xml",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports",
+    "Basketball"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da4"
+  },
+  "title": "The Athletic - NBA",
+  "domain": "theathletic.com",
+  "rss": "https://theathletic.com/nba/?rss=1",
+  "category": "Sports",
+  "channels": [
+    "Top Sources",
+    "Sports",
+    "Basketball"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da5"
+  },
+  "title": "CNET News",
+  "domain": "www.cnet.com",
+  "rss": "https://www.cnet.com/rss/news/",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da6"
+  },
+  "title": "The Verge",
+  "domain": "www.theverge.com",
+  "rss": "https://www.theverge.com/rss/full.xml",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da7"
+  },
+  "title": "Engadget",
+  "domain": "www.engadget.com",
+  "rss": "https://www.engadget.com/rss-full.xml",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da8"
+  },
+  "title": "Wired",
+  "domain": "www.wired.com",
+  "rss": "https://www.wired.com/feed",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology",
+    "Culture"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039da9"
+  },
+  "title": "Lifehacker",
+  "domain": "lifehacker.com",
+  "rss": "https://lifehacker.com/rss",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology",
+    "Culture"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039daa"
+  },
+  "title": "TechCrunch",
+  "domain": "techcrunch.com",
+  "rss": "https://techcrunch.com/feed/",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dab"
+  },
+  "title": "Gizmodo",
+  "domain": "gizmodo.com",
+  "rss": "https://gizmodo.com/rss",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dac"
+  },
+  "title": "ZDNet",
+  "domain": "www.zdnet.com",
+  "rss": "https://www.zdnet.com/news/rss.xml",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dad"
+  },
+  "title": "Mashable",
+  "domain": "mashable.com",
+  "rss": "https://feeds.mashable.com/Mashable",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dae"
+  },
+  "title": "TechRadar",
+  "domain": "www.techradar.com",
+  "rss": "https://www.techradar.com/rss",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039daf"
+  },
+  "title": "Digital Trends",
+  "domain": "www.digitaltrends.com",
+  "rss": "https://www.digitaltrends.com/feed/",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db0"
+  },
+  "title": "How-To Geek",
+  "domain": "www.cloudsavvyit.com;www.howtogeek.com;www.reviewgeek.com",
+  "rss": "https://feeds.howtogeek.com/HowToGeek",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db1"
+  },
+  "title": "GSMArena",
+  "domain": "www.gsmarena.com",
+  "rss": "https://www.gsmarena.com/rss-news-reviews.php3",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db2"
+  },
+  "title": "Android Central",
+  "domain": "www.androidcentral.com",
+  "rss": "https://www.androidcentral.com/feed",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db3"
+  },
+  "title": "MacRumors",
+  "domain": "www.macrumors.com",
+  "rss": "https://feeds.macrumors.com/MacRumors-Front",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db4"
+  },
+  "title": "VentureBeat",
+  "domain": "venturebeat.com",
+  "rss": "https://venturebeat.com/feed/",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology",
+    "Business"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db5"
+  },
+  "title": "The Next Web",
+  "domain": "thenextweb.com",
+  "rss": "https://feeds2.feedburner.com/thenextweb",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db6"
+  },
+  "title": "Windows Central",
+  "domain": "www.windowscentral.com",
+  "rss": "https://feeds.feedburner.com/wmexperts",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db7"
+  },
+  "title": "MakeUseOf",
+  "domain": "www.makeuseof.com",
+  "rss": "https://feeds.feedburner.com/Makeuseof",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db8"
+  },
+  "title": "Hackaday",
+  "domain": "hackaday.com",
+  "rss": "https://hackaday.com/blog/feed/",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039db9"
+  },
+  "title": "9to5Mac",
+  "domain": "9to5mac.com",
+  "rss": "https://9to5mac.com/feed/",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dba"
+  },
+  "title": "IEEE Spectrum",
+  "domain": "spectrum.ieee.org",
+  "rss": "https://feeds2.feedburner.com/IeeeSpectrum",
+  "category": "Technology",
+  "channels": [
+    "Top Sources",
+    "Technology"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dbb"
+  },
+  "title": "The Points Guy",
+  "domain": "thepointsguy.com",
+  "rss": "https://feeds.feedburner.com/thepointsguy",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dbc"
+  },
+  "title": "Lonely Planet",
+  "domain": "www.lonelyplanet.com",
+  "rss": "https://www.lonelyplanet.com/articles/news/feed/atom",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dbd"
+  },
+  "title": "Atlas Obscura",
+  "domain": "www.atlasobscura.com",
+  "rss": "https://www.atlasobscura.com/feeds/latest",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": true,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dbe"
+  },
+  "title": "Stuck in Customs",
+  "domain": "stuckincustoms.com",
+  "rss": "https://feeds.feedburner.com/stuckincustoms/EmRA",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dbf"
+  },
+  "title": "One Mile at a Time",
+  "domain": "onemileatatime.com",
+  "rss": "https://onemileatatime.com/feed/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc0"
+  },
+  "title": "Skift",
+  "domain": "skift.com",
+  "rss": "https://skift.com/feed/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc1"
+  },
+  "title": "Matador Network",
+  "domain": "matadornetwork.com",
+  "rss": "https://matadornetwork.com/feed/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc2"
+  },
+  "title": "Adventure",
+  "domain": "adventure.com",
+  "rss": "https://adventure.com/feed/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc3"
+  },
+  "title": "Million Mile Secrets",
+  "domain": "millionmilesecrets.com",
+  "rss": "https://feeds.feedburner.com/MillionMileSecrets",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc4"
+  },
+  "title": "FlyerTalk",
+  "domain": "www.flyertalk.com",
+  "rss": "https://www.flyertalk.com/feed",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc5"
+  },
+  "title": "BoardingArea",
+  "domain": "www.paddleyourownkanoo.com;milesforfamily.com;liveandletsfly.com;travelupdate.com;yourmileagemayvary.net;viewfromthewing.com;youhavebeenupgraded.boardingarea.com;onemileatatime.com;milestomemories.com",
+  "rss": "https://boardingarea.com/feed/atom/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc6"
+  },
+  "title": "Frommer's",
+  "domain": "www.frommers.com",
+  "rss": "https://www.frommers.com/feed",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc7"
+  },
+  "title": "The Guardian - Travel",
+  "domain": "www.theguardian.com",
+  "rss": "https://www.theguardian.com/us/travel/rss",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc8"
+  },
+  "title": "Secret Flying",
+  "domain": "www.secretflying.com",
+  "rss": "https://www.secretflying.com/feed/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dc9"
+  },
+  "title": "Travel Weekly",
+  "domain": "www.travelweekly.com",
+  "rss": "https://feeds.feedburner.com/TravelWeeklysTopStories",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dca"
+  },
+  "title": "AFAR Magazine",
+  "domain": "www.afar.com",
+  "rss": "https://feeds.feedburner.com/AfarMagazine",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dcb"
+  },
+  "title": "Rick Steves' Travel Blog",
+  "domain": "blog.ricksteves.com",
+  "rss": "https://blog.ricksteves.com/feed/",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6696759a347e0ad714039dcc"
+  },
+  "title": "The Flight Deal",
+  "domain": "www.theflightdeal.com",
+  "rss": "https://feeds.feedburner.com/TheFlightDeal",
+  "category": "Travel",
+  "channels": [
+    "Top Sources",
+    "Travel"
+  ],
+  "is_enabled": false,
+  "xpaths": {
+    "title": "",
+    "author": "",
+    "publication_date": "",
+    "summary": "",
+    "content": "",
+    "tags": [],
+    "categories": []
+  }
+}]
